@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* body{
+    background-color: rgba(245, 245, 245, 0.932);
+
+} */
+
+
+header{
+  position: sticky;
+  top: 0;
+  
+}
+
+nav{
+    background-color: rgba(83, 137, 238, 0.664);
+    display: grid;
+    grid-template-columns: 3fr repeat(7,2fr);
+    column-gap: 10px;
+    
+}
+a{
+  text-decoration: none;
+  justify-self: flex-start;
+  color: aliceblue;
+  align-self: center;
+  /* padding-top: 20px; */
+  
+}
+a.link-hover:hover{
+       width: fit-content;
+       height: fit-content;
+       color: rgb(231 ,206 ,23);
+       border: 2px rgba(255, 255, 255, 0.87);
+       background-color: rgba(255, 255, 255, 0.87);
+       border-radius: 30% 0 30% 0;
+       padding: 7px;
+}
+#buy-now-btn{
+  justify-self: flex-end;
+  
+  
+}
+#buy-now-btn button{
+  background: transparent;
+  border: none;
+  color: azure;
+  background:linear-gradient(rgb(246, 122, 53),rgb(231 ,206 ,23)) ;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30% 0 30% 0;
+}
+section{
+  display: grid;
+  grid-template-columns: repeat(3,5fr);
+    padding: 230px;
+  background: url("images/backgroundd2.jpg");
+  justify-content: center;
+}
+span{
+  
+  text-transform: uppercase;
+  font-family: 'Andada Pro', serif;
+  font-size: 5fr;
+  color: darkcyan;
+  
+  
+}
+section img{
+  width: 100px;
+ 
+}
+div.div-about{
+  display: grid;
+  width: fit-content;
+  height: fit-content;
+  padding: 100px;
+  background-color: rgb(235, 234, 230);
+}
+h6{
+  font-family: 'Andada Pro', serif;
+    font-size: 40px;
+    color: rgb(7, 136, 250);
+    justify-self: center;
+    padding: 10px;
+    
+}
+div.picture{
+  display: grid;
+  grid-template-columns: repeat(4,10fr);
+  /* grid-auto-rows: auto; */
+  /* grid-auto-columns: auto; */
+  
+  padding: 20px;
+  gap: 5px;
+}
+div.picture img{
+  width: 100px;
+  border-radius: 30% 0 30% 0;
+}
+.feed{
+  display: grid;
+  width: fit-content;
+  height: fit-content;
+  padding: 100px;
+  background-color: rgb(235, 234, 230);
+}
+.complaints{
+  display: grid;
+  grid-template-columns: repeat(4,12fr);
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+form{
+  display: grid;
+  row-gap: 10px;
+  /* grid-template-columns: repeat(4,10fr); */
+}
+input,textarea{
+  /* text-decoration-style: none; */
+  background-color: rgb(240, 238, 238);
+  border: none;
+  border-style: none;
+  padding: 20px;
+}
+label{
+  font-family: 'Andada Pro', serif;
+    font-size: 20px;
+    color: rgb(7, 136, 250);
+    padding: 10px;
+}
+button.submit-btn{
+  background: transparent;
+  border: none;
+  color: azure;
+  background:linear-gradient(rgb(246, 122, 53),rgb(231 ,206 ,23)) ;
+  
+  padding: 5px;
+  /* border-radius: 30% 0 30% 0; */
+}
+p{
+  opacity: .5;
+  font-size: 15px;
+  color: black;
+  justify-self: flex-end;
+}
